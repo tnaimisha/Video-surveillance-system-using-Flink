@@ -39,4 +39,6 @@ There you go!
 
 Check your output directory(processed.output.dir) and see the processed frames.
 
+I tried with some traffic video and see the processed frames below with the motion highlighted
+
 ![alt text](https://github.com/tnaimisha/Video-surveillance-system-using-Flink/blob/master/OutputFrames.png)
