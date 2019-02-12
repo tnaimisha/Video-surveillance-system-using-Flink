@@ -38,3 +38,5 @@ mvn clean package exec:java -Dexec.mainClass="com.iot.video.app.kafka.collector.
 There you go!
 
 Check your output directory(processed.output.dir) and see the processed frames.
+
+![alt text](https://github.com/tnaimisha/Video-surveillance-system-using-Flink/blob/master/OutputFrames.png)
