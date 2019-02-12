@@ -21,11 +21,13 @@ Mac users can mention them in the VM options in IntelliJ or add the below while 
 -Djava.library.path="<Your download path>/opencv-3.2.0/build/lib" 
 
 3. Create a new Kafka topic using below 
+
 kafka-topics.sh --create --zookeeper localhost:2181 --topic video-stream-event --replication-factor 1 --partitions 3
 
 4. Ensure that the input path camer.url, output path processed.output.dir and the log directories for stream-collector.log,stream-processor.log are created as mentioned in your code.
 
 5. To install the OpenCV JAR in a local Maven repository go to the video-stream-processor folder and execute 
+
 mvn clean
 
 6. Start the video stream processor first
