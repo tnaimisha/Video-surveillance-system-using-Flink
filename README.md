@@ -24,7 +24,7 @@ Mac users can mention them in the VM options in IntelliJ or add the below while 
 
 kafka-topics.sh --create --zookeeper localhost:2181 --topic video-stream-event --replication-factor 1 --partitions 3
 
-4. Ensure that the input path camer.url, output path processed.output.dir and the log directories for stream-collector.log,stream-processor.log are created as mentioned in your code.
+4. Ensure that the input path camera.url, output path processed.output.dir and the log directories for stream-collector.log,stream-processor.log are created as mentioned in your code.
 
 5. To install the OpenCV JAR in a local Maven repository go to the video-stream-processor folder and execute 
 
@@ -43,6 +43,6 @@ There you go!
 
 Check your output directory(processed.output.dir) and see the processed frames.
 
-I tried with some traffic video and see the processed frames below with the motion highlighted
+I tried with California live traffic videos and see the sample processed frames below with the motion highlighted
 
 ![alt text](https://github.com/tnaimisha/Video-surveillance-system-using-Flink/blob/master/OutputFrames.png)
